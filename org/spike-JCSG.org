@@ -1,0 +1,13 @@
+* JCSG is a CSG.js JAVA implementation that outputs STL and models supported by JFX 3D viewer
+* DONE Test Clojure REPL box STL generation basic case
+  CLOSED: [2019-02-10 Sun 22:20]
+* DONE Test union etc.
+  CLOSED: [2019-02-10 Sun 22:20]
+* DONE Export STL
+  CLOSED: [2019-02-10 Sun 22:30]
+* TODO Import STL
+* TODO Test JFX display case
+* TODO Test performance.
+  First intuition is JCSG is indeed very fast, OpenSCAD can eat dirt.
+* GRAALVM
+  I haven't think of any use case for this though. But it's cool to list here
