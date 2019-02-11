@@ -1,6 +1,7 @@
 (ns xingtian.spike
-  (:import (eu.mihosoft.jcsg Cube Sphere)
-           (eu.mihosoft.vvecmath Transform)))
+  (:import (eu.mihosoft.jcsg Cube Sphere STL)
+           (eu.mihosoft.vvecmath Transform)
+           (java.nio.file Paths)))
 
 (def cube (.toCSG (new Cube 2)))
 (def sphere (.toCSG (new Sphere 1.25)))
@@ -29,5 +30,8 @@
       (union cis)
       (union cps))))
 
-(spit "test.stl"
-  (.toStlString union))
+(spit "test.stl" (.toStlString union))
+
+(def load-stl (STL/file (Paths/get "./test.stl" (into-array [""]))))
+
+(spit "test2.stl" (.toStlString load-stl))

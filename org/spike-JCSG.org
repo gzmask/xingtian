@@ -5,7 +5,8 @@
   CLOSED: [2019-02-10 Sun 22:20]
 * DONE Export STL
   CLOSED: [2019-02-10 Sun 22:30]
-* TODO Import STL
+* DONE Import STL
+  CLOSED: [2019-02-10 Sun 22:56]
 * TODO Test JFX display case
 * TODO Test performance.
   First intuition is JCSG is indeed very fast, OpenSCAD can eat dirt.
