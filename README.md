@@ -1,6 +1,19 @@
-# xingtian
+# Xingtian
 
-A Clojure library designed to ... well, that part is up to you.
+<img width="350px" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Jiang_Yinghao_-_Xingtian.jpg"
+ alt="Xingtian" title="Xingtian" align="right" />
+
+> Xingtian (刑天, meaning "Opposing Heaven") and the 
+> Supreme God Di (黄帝) came to this place and 
+> struggled against each other for ultimate power. 
+> The Supreme God cut off Xingtian's head and buried 
+> him at Eternally Auspicious Mountain. Xiangtian's nipples 
+> then transformed into eyes, and his navel became a mouth. 
+> He performs a dance with an ax and shield.
+
+> From -[Classic of Mountains and Seas 山海经](https://en.wikipedia.org/wiki/Classic_of_Mountains_and_Seas "Classic of Mountains and Seas") 
+
+Xingtian is a Clojure constructive solid geometry REPL style modeler. 
 
 ## Usage
 
