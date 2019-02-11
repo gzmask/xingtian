@@ -7,8 +7,33 @@
   CLOSED: [2019-02-10 Sun 22:30]
 * DONE Import STL
   CLOSED: [2019-02-10 Sun 22:56]
+* DONE Test feature parity with OpenSCAD
+  CLOSED: [2019-02-12 Tue 00:19]
+  STL file import and union.
 * TODO Test JFX display case
+  See: https://github.com/miho/JCSG/commit/7e226f249bb2117277a16fd0bfe46939a25883ab
+  https://github.com/miho/JCSG/blob/master/src/main/java/eu/mihosoft/jcsg/CSG.java#L971
+  https://github.com/miho/JCSG/blob/master/src/main/java/eu/mihosoft/jcsg/MeshContainer.java#L27 ,dv will do better job
+  https://www.programcreek.com/java-api-examples/?api=javafx.scene.shape.MeshView very bad doc
+  https://github.com/fn-fx/fn-fx 90% of this is not useful
+  https://stackoverflow.com/questions/30467440/place-meshview-in-scene
+  
+  Downloaded the official app in resources/src. JFX stuff should be a new NS.
+  
+  An old tutorial that uses gen class to start application
+  https://github.com/raju-bitter/clojure-javafx-example
+  https://github.com/raju-bitter/clojure-javafx-example/blob/master/src/jfx/app.clj
+  
+  An newer tutorial that uses embbed swing to start application, also mentioned lein dep JFX jar.
+  https://coderwall.com/p/4yjy1a/getting-started-with-javafx-in-clojure
+  
+* TODO Spike for WebGL instead of JavaFX 3D:
+  https://www.quora.com/What-is-more-simple-to-use-and-impressive-to-look-for-3D-plots-graphs-and-networks-visualization-JavaFX-or-WebGl-Threejs-Babylonjs
+  Compare the two with CPU perf.
+  Clojurescript!
+  
+  It keeps breaking in chrome, JFX looks better now.
 * TODO Test performance.
   First intuition is JCSG is indeed very fast, OpenSCAD can eat dirt.
-* GRAALVM
+* TODO GRAALVM
   I haven't think of any use case for this though. But it's cool to list here
